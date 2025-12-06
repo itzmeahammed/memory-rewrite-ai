@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Ear, Volume2, VolumeX } from 'lucide-react';
+import { Ear, Volume2 } from 'lucide-react';
 import { BoldButton } from '@/components/ui/BoldButton';
 import { cn } from '@/lib/utils';
 

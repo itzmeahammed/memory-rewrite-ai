@@ -7,7 +7,7 @@ export function HeroSection() {
     const navigate = useNavigate();
     const { scrollY } = useScroll();
     const y1 = useTransform(scrollY, [0, 300], [0, 100]);
-    const y2 = useTransform(scrollY, [0, 300], [0, -50]);
+
 
     return (
         <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-20">

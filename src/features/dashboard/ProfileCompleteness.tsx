@@ -66,7 +66,7 @@ export function ProfileCompleteness({ hasMemories }: ProfileCompletenessProps) {
             </div>
 
             <ul className="space-y-3">
-                {steps.map((step, i) => (
+                {steps.map((step) => (
                     <li
                         key={step.id}
                         className={cn(

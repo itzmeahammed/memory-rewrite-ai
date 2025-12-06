@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link2 } from 'lucide-react';
-import { cn } from '@/lib/utils';
+
 import type { Memory } from '@/services/db/memoriesService';
 
 interface RelatedMemoriesProps {

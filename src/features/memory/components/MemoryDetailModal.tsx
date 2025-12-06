@@ -1,8 +1,8 @@
-import { Dialog, DialogContent } from '@/components/ui/Dialog';
+import { Dialog, DialogContent } from '../../../components/ui/Dialog';
 import { Badge } from '@/components/ui/Badge';
 import { BoldButton } from '@/components/ui/BoldButton';
 import { motion } from 'framer-motion';
-import { Calendar, Brain, ArrowRight, Share2, Quote, Sparkles } from 'lucide-react';
+import { Calendar, Brain, Share2, Quote, Sparkles } from 'lucide-react';
 import { formatDate } from '@/lib/utils';
 import { type Memory } from '@/services/db/memoriesService';
 
