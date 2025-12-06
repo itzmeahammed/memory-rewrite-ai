@@ -1,0 +1,175 @@
+# Tasks
+
+- [x] **Phase 1: Project Foundation & Configuration** <!-- id: 0 -->
+    - [x] Initialize Vite project with React 19 & TypeScript <!-- id: 1 -->
+    - [x] Configure [vite.config.ts](file:///e:/my%20projects/Memory%20Rewriter%20AI/client/vite.config.ts) with path aliases (`@/components`, `@/lib`, etc.) <!-- id: 2 -->
+    - [x] Set up `vitest` and `testing-library/react` for unit testing <!-- id: 3 -->
+    - [x] Install and configure `Tailwind CSS 4.0` <!-- id: 4 -->
+    - [x] Configure `eslint` with strict accessibility (a11y) rules <!-- id: 5 -->
+    - [x] Configure `prettier` for consistent code formatting <!-- id: 6 -->
+    - [x] Create `.env.example` and secure environment variable handling <!-- id: 7 -->
+    - [x] Initialize Git repository and [.gitignore](file:///e:/my%20projects/Memory%20Rewriter%20AI/client/.gitignore) <!-- id: 8 -->
+    - [x] Set up `husky` for pre-commit hooks <!-- id: 9 -->
+    - [x] Create `types/global.d.ts` for global type augmentations <!-- id: 10 -->
+
+- [ ] **Phase 2: The "Bold & Monochrome" Design System** <!-- id: 11 -->
+    - [x] Define CSS Variables for Monochrome Palette (Obsidian, Charcoal, Alabaster) <!-- id: 12 -->
+    - [x] Implement `Typography` system (Inter/Manrope, heavy weights for headers) <!-- id: 13 -->
+    - [x] Create `Shadows` and `Elevation` system (sharp, high-contrast shadows) <!-- id: 14 -->
+    - [x] **Atom: Button** - Primary (Solid Black), Secondary (Outline), Ghost <!-- id: 15 -->
+    - [x] **Atom: Button** - Add "Magnetic" hover effect using Framer Motion <!-- id: 16 -->
+    - [x] **Atom: Input** - Minimalist, bottom-border only, animated label <!-- id: 17 -->
+    - [x] **Atom: Card** - "Neobrutalist" style: thick borders, no radius, or "Clean" style: high padding <!-- id: 18 -->
+    - [x] **Atom: Badge** - High contrast tags for status <!-- id: 19 -->
+    - [x] **Atom: Avatar** - Geometric shapes for user placeholders <!-- id: 20 -->
+    - [x] **Atom: Separator** - Styled dividers <!-- id: 21 -->
+    - [x] **Atom: Skeleton** - Shimmer loading states <!-- id: 22 -->
+    - [x] **Atom: Tooltip** - Minimalist black tooltips <!-- id: 23 -->
+    - [x] **Atom: Toggle** - High contrast switch <!-- id: 24 -->
+    - [x] **Atom: Icon** - Integrate `lucide-react` with custom stroke weights <!-- id: 25 -->
+    - [x] **Molecule: Modal** - Full-screen overlay with blur backdrop <!-- id: 26 -->
+    - [x] **Molecule: Drawer** - Slide-out panel for mobile navigation <!-- id: 27 -->
+    - [x] **Molecule: Toast** - Stackable notifications (Black toast, white text) <!-- id: 28 -->
+    - [x] **Molecule: Accordion** - Smooth collapse/expand for FAQs <!-- id: 29 -->
+    - [x] **Molecule: Tabs** - Underlined active state with layout transition <!-- id: 30 -->
+
+- [ ] **Phase 3: Core Architecture & State** <!-- id: 31 -->
+    - [x] Initialize `Supabase` client with TypeScript generation <!-- id: 32 -->
+    - [x] Create `AuthContext` with persistent session handling <!-- id: 33 -->
+    - [x] Implement `useUser` hook for profile data <!-- id: 34 -->
+    - [x] Set up `TanStack Query` (React Query) client <!-- id: 35 -->
+    - [x] Create `Axios` or `Fetch` wrapper for external APIs <!-- id: 36 -->
+    - [x] Implement `ErrorBoundary` for graceful failure <!-- id: 37 -->
+    - [x] Create `ThemeContext` (System/Dark/Light) <!-- id: 38 -->
+    - [x] Set up `Zustand` store for global UI state (sidebar, modals) <!-- id: 39 -->
+
+- [ ] **Phase 4: Authentication & Onboarding** <!-- id: 40 -->
+    - [x] **Page: Login** - Split screen design (Image + Form) <!-- id: 41 -->
+    - [x] **Page: Register** - Step-by-step onboarding flow <!-- id: 42 -->
+    - [x] **Form**: Implement Zod schema validation for Auth <!-- id: 43 -->
+    - [x] **Feature**: Social Login buttons (Google/GitHub) styled monochrome <!-- id: 44 -->
+    - [x] **Feature**: "Forgot Password" flow <!-- id: 45 -->
+    - [x] **Feature**: Email verification banner <!-- id: 46 -->
+
+- [ ] **Phase 5: The Dashboard (Braintrust Style)** <!-- id: 47 -->
+    - [x] **Layout**: Persistent Sidebar with collapsible state <!-- id: 48 -->
+    - [x] **Layout**: Top Header with "Breadcrumbs" and User Menu <!-- id: 49 -->
+    - [x] **Widget**: "Welcome [Name]" Hero Section with bold typography <!-- id: 50 -->
+    - [x] **Widget**: "Profile Completeness" Circular Progress Bar <!-- id: 51 -->
+    - [x] **Widget**: "Quick Actions" Grid (New Memory, View Stats) <!-- id: 52 -->
+    - [x] **Widget**: "Recent Activity" List with minimalist icons <!-- id: 53 -->
+    - [x] **Widget**: "Daily Quote" card with typewriter effect <!-- id: 54 -->
+
+- [ ] **Phase 6: Core Feature - Memory Rewriter** <!-- id: 55 -->
+    - [x] **Page: New Memory** - Distraction-free writing mode <!-- id: 56 -->
+    - [x] **Input**: Voice-to-Text integration (Web Speech API) <!-- id: 57 -->
+    - [x] **Input**: "Mood Selector" (Emoji/Slider) before rewriting <!-- id: 58 -->
+    - [x] **AI Service**: Mock API with variable latency simulation <!-- id: 59 -->
+    - [x] **AI Service**: Response streaming logic (token by token) <!-- id: 60 -->
+    - [x] **Output**: Side-by-side comparison (Original vs Rewritten) <!-- id: 61 -->
+    - [x] **Action**: "Save to Vault" functionality <!-- id: 62 -->
+    - [x] **Action**: "Share Anonymously" (Generate public link) <!-- id: 63 -->
+
+- [ ] **Phase 7: Innovative Features (The "Extra")** <!-- id: 64 -->
+    - [x] **Feature: Time Capsule** - Schedule a memory to unlock in the future <!-- id: 65 -->
+    - [x] **Feature: Emotion Heatmap** - Calendar view visualizing mood trends <!-- id: 66 -->
+    - [x] **Feature: Neural Echo** - 3D Visualization of memory network (Three.js) <!-- id: 67 -->
+    - [x] **Feature: Zen Mode** - Toggle to hide all UI except text area <!-- id: 68 -->
+    - [x] **Feature: Gamification** - "Mindfulness Streaks" badge system <!-- id: 69 -->
+    - [x] **Feature: Export** - Download memories as PDF/JSON <!-- id: 70 -->
+
+- [ ] **Phase 8: Settings & Polish** <!-- id: 71 -->
+    - [x] **Page: Settings** - Account management, Data export <!-- id: 72 -->
+    - [x] **Page: Profile** - Edit avatar, display name, bio <!-- id: 73 -->
+    - [x] **Page: 404** - Creative "Lost Memory" error page <!-- id: 74 -->
+    - [x] **Optimization**: Implement code splitting for all routes <!-- id: 75 -->
+    - [x] **Optimization**: Image lazy loading and format conversion <!-- id: 76 -->
+    - [x] **Accessibility**: Keyboard navigation audit <!-- id: 77 -->
+    - [x] **SEO**: Meta tags and OpenGraph headers <!-- id: 78 -->
+    - [x] **Testing**: End-to-End smoke tests for critical flows <!-- id: 79 -->
+    - [x] **Documentation**: Write [README.md](file:///e:/my%20projects/Memory%20Rewriter%20AI/client/README.md) with setup instructions <!-- id: 80 -->
+    - [x] **Final Review**: Walkthrough video generation <!-- id: 81 -->
+
+- [ ] **Phase 9: Authentication Refactor & Local AI** <!-- id: 82 -->
+    - [x] **Auth**: Remove GitHub Auth integration <!-- id: 83 -->
+    - [x] **Auth**: Enhance Google Auth with Supabase <!-- id: 84 -->
+    - [x] **Local AI**: Install `@mlc-ai/web-llm` <!-- id: 85 -->
+    - [x] **Local AI**: Create `LocalAIService` for in-browser model loading <!-- id: 86 -->
+    - [x] **Local AI**: Implement "Model Loading" UI indicator <!-- id: 87 -->
+
+- [ ] **Phase 10: Enhanced UI & Animations ("Deeper")** <!-- id: 88 -->
+    - [x] **UI**: Implement parallax scroll effects <!-- id: 89 -->
+    - [x] **UI**: Add magnetic button hover effects <!-- id: 90 -->
+    - [x] **UI**: Create text scramble effects for headers <!-- id: 91 -->
+    - [x] **UI**: Upgrade `NeuralEcho` with interactive particles <!-- id: 92 -->
+    - [x] **UI**: Implement "Glassmorphism 2.0" blur effects <!-- id: 93 -->
+    - [x] **UI**: Add custom context-aware cursors <!-- id: 94 -->
+    - [x] **UI**: Create liquid dark mode transitions <!-- id: 95 -->
+
+- [ ] **Phase 11: Cognitive & AI Enhancements** <!-- id: 96 -->
+    - [x] **Feature**: Real-time Sentiment Analysis 2.0 <!-- id: 97 -->
+    - [x] **Feature**: Cognitive Distortion Detector <!-- id: 98 -->
+    - [x] **Feature**: Socratic Questioning Mode <!-- id: 99 -->
+    - [ ] **Feature**: Voice Tone Analysis (Web Audio API) <!-- id: 100 -->
+    - [ ] **Feature**: Dream Interpretation Mode <!-- id: 101 -->
+    - [ ] **Feature**: Future Self Chat Persona <!-- id: 102 -->
+    - [ ] **Feature**: Semantic Memory Linking <!-- id: 103 -->
+    - [x] **Feature**: Perspective Shifting (Observer/Friend/Stoic) <!-- id: 104 -->
+    - [x] **Feature**: Metaphor Generator <!-- id: 105 -->
+    - [x] **Feature**: Haiku/Poetry Mode <!-- id: 106 -->
+
+- [ ] **Phase 12: Immersive UI & Visuals** <!-- id: 107 -->
+    - [x] **Visuals**: Particle Text effects <!-- id: 108 -->
+    - [x] **Visuals**: Dynamic Mood-based Backgrounds <!-- id: 109 -->
+    - [ ] **Audio**: Focus Mode with Binaural Beats <!-- id: 110 -->
+    - [x] **Visuals**: Breathing Guide Overlay <!-- id: 111 -->
+    - [ ] **UI**: Scroll-triggered Storytelling <!-- id: 112 -->
+    - [ ] **Audio**: Data Sonification (Mood Melody) <!-- id: 113 -->
+    - [ ] **AR**: Experimental AR Memory Viewer <!-- id: 114 -->
+
+- [ ] **Phase 13: Gamification & Social** <!-- id: 115 -->
+    - [x] **Game**: Mindfulness RPG System (XP/Levels) <!-- id: 116 -->
+    - [ ] **Feature**: Daily "Micro-Rewrite" Challenges <!-- id: 117 -->
+    - [ ] **Social**: Anonymous Community Wisdom Feed <!-- id: 118 -->
+    - [ ] **Social**: Accountability Partner System <!-- id: 119 -->
+    - [x] **Game**: "Stoic Master" Badge System <!-- id: 120 -->
+    - [ ] **Game**: Streak Freeze Currency <!-- id: 121 -->
+    - [ ] **Social**: Gift a Rewrite Token <!-- id: 122 -->
+    - [ ] **Social**: Group Challenges (30 Days of Gratitude) <!-- id: 123 -->
+    - [ ] **Visuals**: Avatar Evolution System <!-- id: 124 -->
+
+- [ ] **Phase 14: Data, Privacy & Security** <!-- id: 125 -->
+    - [ ] **Privacy**: Local-Only Mode (No Sync) <!-- id: 126 -->
+    - [ ] **Security**: Biometric Lock (WebAuthn) <!-- id: 127 -->
+    - [ ] **Privacy**: Image Steganography for Memories <!-- id: 128 -->
+    - [ ] **Security**: Decoy Vault <!-- id: 129 -->
+    - [ ] **Privacy**: Auto-Destruct Memories <!-- id: 130 -->
+    - [ ] **Data**: GDPR One-Click Export <!-- id: 131 -->
+    - [ ] **Security**: Client-Side E2E Encryption <!-- id: 132 -->
+    - [ ] **Security**: Access Audit Logs <!-- id: 133 -->
+    - [ ] **Security**: Remote Session Logout <!-- id: 134 -->
+    - [ ] **Data**: Radar Charts for Emotion Analysis <!-- id: 135 -->
+
+- [ ] **Phase 15: Accessibility & Advanced Input** <!-- id: 136 -->
+    - [ ] **Input**: Eye Tracking Scroll (WebGazer.js) <!-- id: 137 -->
+    - [ ] **Input**: Gesture Control (Swipe Actions) <!-- id: 138 -->
+    - [ ] **Input**: Voice Command System ("Hey AI") <!-- id: 139 -->
+    - [ ] **A11y**: OpenDyslexic Font Toggle <!-- id: 140 -->
+    - [ ] **A11y**: Ultra-High Contrast Mode <!-- id: 141 -->
+    - [ ] **A11y**: Screen Reader Optimization Audit <!-- id: 142 -->
+    - [ ] **Input**: Vim-like Keyboard Navigation <!-- id: 143 -->
+    - [ ] **Input**: Haptic Feedback (Vibration API) <!-- id: 144 -->
+    - [ ] **Input**: Handwriting Recognition <!-- id: 145 -->
+    - [ ] **Feature**: Real-time Multilingual Translation <!-- id: 146 -->
+
+- [ ] **Phase 16: Experimental & Future Tech** <!-- id: 147 -->
+    - [ ] **Exp**: Brain-Computer Interface (Mock/Prototype) <!-- id: 148 -->
+    - [ ] **Exp**: VR Meditation Room <!-- id: 149 -->
+    - [ ] **Exp**: Generative Art from Memories <!-- id: 150 -->
+    - [ ] **Exp**: AI-Generated Music Playlists based on Mood <!-- id: 151 -->
+    - [ ] **Exp**: "Time Travel" Mode (Simulate past UI styles) <!-- id: 152 -->
+    - [ ] **Exp**: Holographic UI Elements (CSS 3D) <!-- id: 153 -->
+    - [ ] **Exp**: P2P Memory Sharing (WebRTC) <!-- id: 154 -->
+    - [ ] **Exp**: Offline-First Architecture (PWA Enhanced) <!-- id: 155 -->
+    - [ ] **Exp**: WebAssembly Performance Optimizations <!-- id: 156 -->
+    - [ ] **Exp**: Quantum Encryption Simulation <!-- id: 157 -->
